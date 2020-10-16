@@ -5,6 +5,14 @@ Simple Gmail Apps Script to upload multiple .csv to Google Cloud Storage based o
 
 Use Google Cloud Storage API 
 
+Need to set configure the /params.gs JSON to make it work
+  LABELNAME: Label to set in your mailbox based on the filters rule you want. For example a dedicated sender email address.
+  LABELPROCESSED: Label when file will be processed
+  CLIENT_ID: See dependencies to get it
+  CLIENT_SECRET:  See dependencies to get it
+  BUCKET_NAME: Name of the bucket to dump data into
+  FILE_PATH: File path in the bucket
+
 # Dependencies 
 
 This script is using Google Apps Script OAuth2 library to use Google Apps Script API. 
